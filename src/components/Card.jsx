@@ -4,9 +4,10 @@ import { ObjectCard, ObjectTitle } from '../styles/components/CardStyles'
 export default function Card() {
   return (
     <ObjectCard>
-        <ObjectTitle>
+        <ObjectTitle className='title'>
             <h1>Goku</h1>
-            <p>Es un sayajin</p>
+            <a href="#">Es un sayajin</a>
+            <a href="#">Es un sayajin</a>
         </ObjectTitle>
     </ObjectCard>
   )
