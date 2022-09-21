@@ -13,6 +13,20 @@ export const ObjectCard = styled.section`
         visibility: hidden;
     }
 
+    img{
+        position: absolute;
+        top: -10%;
+        height: 270px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        transition: .5s;
+    }
+
+    &:hover img{
+        height: 200px;
+    }
+
 `
 
 export const ObjectTitle = styled.div`
@@ -41,3 +55,9 @@ export const ObjectTitle = styled.div`
         margin-top: 10px;
     }
 `
+
+export const ObjectContent = styled.div`
+    position: relative;
+    width: 100%;
+`
+
