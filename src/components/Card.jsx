@@ -9,7 +9,7 @@ export default function Card() {
             <a href="#">Es un sayajin</a>
             <a href="#">Es un sayajin</a>
         </ObjectTitle>
-        <ObjectContent>
+        <ObjectContent className='content'>
             <h1>Goku</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aliquid quo placeat quod repellendus rem tenetur voluptates.</p>
             <a href="#">Sayajin</a>

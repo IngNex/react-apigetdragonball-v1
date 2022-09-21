@@ -27,6 +27,12 @@ export const ObjectCard = styled.section`
         height: 200px;
     }
 
+    &:hover .content{
+        opacity: 1;
+        visibility: visible;
+        align-items: flex-end;
+    }
+
 `
 
 export const ObjectTitle = styled.div`
@@ -59,5 +65,35 @@ export const ObjectTitle = styled.div`
 export const ObjectContent = styled.div`
     position: relative;
     width: 100%;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    top: 200px;
+    text-align: center;
+
+    h1{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    p{
+        color: #fff;
+        text-align: center;
+        font-size: .8em;
+    }
+    a{
+        position: relative;
+        display: inline-block;
+        color: #111;
+        font-size: 0.8em;
+        width: auto;
+        text-decoration: none;
+        padding: 10px 15px;
+        background: #ffd4d4;
+        border-radius: 10px;
+        margin: 10px 5px 5px;
+    }
 `
 
