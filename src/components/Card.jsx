@@ -4,12 +4,12 @@ import { ObjectCard, ObjectContent, ObjectTitle } from '../styles/components/Car
 export default function Card() {
   return (
     <ObjectCard>
-        <ObjectTitle className='title'>
+        <ObjectTitle>
             <h1>Goku</h1>
             <a href="#">Es un sayajin</a>
             <a href="#">Es un sayajin</a>
         </ObjectTitle>
-        <ObjectContent className='content'>
+        <ObjectContent >
             <h1>Goku</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aliquid quo placeat quod repellendus rem tenetur voluptates.</p>
             <a href="#">Sayajin</a>

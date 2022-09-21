@@ -4,11 +4,11 @@ import { Container } from '../styles/components/ContainerStyles'
 import { ListView } from '../styles/components/ListStyles'
 
 export default function Home() {
-  return (
-    <Container>
-        <ListView>
-            <Card/>
-        </ListView>
-    </Container>
-  )
+    return (
+        <Container>
+            <ListView>
+                <Card/>
+            </ListView>
+        </Container>
+    )
 }

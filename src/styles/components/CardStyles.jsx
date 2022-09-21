@@ -8,10 +8,10 @@ export const ObjectCard = styled.section`
     background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(254,255,0,1) 100%);
     margin: 5%;
 
-    &:hover .title{
+    /*&:hover $ObjectTitle}{
         opacity: 0;
         visibility: hidden;
-    }
+    }*/
 
     img{
         position: absolute;
@@ -26,13 +26,6 @@ export const ObjectCard = styled.section`
     &:hover img{
         height: 200px;
     }
-
-    &:hover .content{
-        opacity: 1;
-        visibility: visible;
-        align-items: flex-end;
-    }
-
 `
 
 export const ObjectTitle = styled.div`
@@ -44,6 +37,11 @@ export const ObjectTitle = styled.div`
     visibility: visible;
     transition: .5s;
     justify-content: left;
+
+    ${ObjectCard}:hover & {
+        opacity: 0;
+        visibility: hidden;
+    }
 
     h1{
         font-size: 2.5em;
@@ -72,6 +70,11 @@ export const ObjectContent = styled.div`
     top: 200px;
     text-align: center;
 
+    ${ObjectCard}:hover &{
+        opacity: 1;
+        visibility: visible;
+        align-items: flex-end;
+    }
     h1{
         color: #fff;
         text-transform: uppercase;
