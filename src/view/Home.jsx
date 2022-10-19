@@ -8,6 +8,9 @@ export default function Home() {
         <Container>
             <ListView>
                 <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </ListView>
         </Container>
     )

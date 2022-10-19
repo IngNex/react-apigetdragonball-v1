@@ -15,7 +15,7 @@ export default function Card() {
             <a href="#">Sayajin</a>
             <a href="#">Masculino</a>
         </ObjectContent>
-        <img class='image' src="https://raw.githubusercontent.com/IngNex/dragonball-api-sagas/master/assets/img/goku.png" alt=""/>             
+        <img class='image' src="https://raw.githubusercontent.com/IngNex/dragonball-api-sagas/master/assets/saga_sayajin/vegeta.png" alt=""/>             
     </ObjectCard>
   )
 }
